@@ -1,0 +1,16 @@
+name = Coursera
+description = Coursera API integration.
+package = Core
+version = VERSION
+core = 7.x
+
+; Added additional js & css 
+stylesheets[all][] = css/coursera.css
+scripts[] = js/coursera.js
+scripts[] = js/offcanvas.js
+
+; Information related to version and date.
+version = "7.x"
+project = "drupal"
+datestamp = "1415375131"
+
