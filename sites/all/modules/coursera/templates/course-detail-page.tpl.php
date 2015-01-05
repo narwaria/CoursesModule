@@ -34,14 +34,13 @@
 			<?php endif; ?>
 		</div>
 		<div class="clear"></div>
-		<?php if (is_array($linked["v1Details.v1"])): ?>
+		<?php if (isset($linked["v1Details.v1"][0])): ?>
 			<div class="row">
 				<div class="col-lg-12">
 					<h3>About the Course</h3>
-					<?php foreach ($linked["v1Details.v1"] as $v1Details): ?>
+					<?php foreach($linked["v1Details.v1"] as $v1Details): ?>
 						<p><?php echo $v1Details["aboutTheCourse"]; ?></p>
 						<p><?php echo $v1Details["faq"]; ?></p>
-
 					<?php endforeach; ?>
 				</div>
 			</div>
