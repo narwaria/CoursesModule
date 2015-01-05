@@ -3,10 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/html/drupal7/sites/all/modules/coursera/example_one.inc</file>
-            <file>file:/C:/xampp/htdocs/html/drupal7/sites/all/modules/coursera/coursera.info</file>
-            <file>file:/C:/xampp/htdocs/html/drupal7/sites/all/modules/coursera/coursera.module</file>
-            <file>file:/C:/xampp/htdocs/html/drupal7/sites/all/modules/coursera/templates/header.tpl.php</file>
+            <file>file:/var/www/html/CoursesModule/sites/all/modules/coursera/coursera.module</file>
+            <file>file:/var/www/html/CoursesModule/sites/all/modules/coursera/templates/course-list-data.tpl.php</file>
+            <file>file:/var/www/html/CoursesModule/sites/all/modules/coursera/templates/courses-output-html.tpl.php</file>
+            <file>file:/var/www/html/CoursesModule/sites/all/modules/coursera/coursera.inc</file>
+            <file>file:/var/www/html/CoursesModule/sites/all/modules/coursera/templates/course-detail-page.tpl.php</file>
+            <file>file:/var/www/html/CoursesModule/sites/all/modules/coursera/templates/search-course-form.tpl.php</file>
         </group>
     </open-files>
 </project-private>

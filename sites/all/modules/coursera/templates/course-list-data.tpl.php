@@ -1,3 +1,11 @@
+<?php
+/** 
+ * Available variables:
+ * - $coursesListArray
+ * 
+ */
+?>
+
 <?php if (count($coursesListArray) == 0): ?>
     <li class="list-group-item text-center"><?php echo t("No record found"); ?></li>
 <?php else: ?>
@@ -12,14 +20,12 @@
                 <div class="col-sm-6 col-md-6">
                     <?php if (is_array($course["partners"])): ?>
                         <?php foreach ($course["partners"] as $partner): ?>
-                            <a href="#" date-url="<?php print $partner["shortName"]; ?>" ><h4><?php print $partner["name"]; ?></h4></a>
-
+                            <h4><?php print $partner["name"]; ?></h4>
                         <?php endforeach; ?>
                     <?php endif; ?>
-                    <p>
-                        <?php print t($course["name"]); ?><br />
+                    <p>                        
                         <?php echo  l(t($course["name"]), "coursera/courser/{$course["slug"]}", array('attributes' => array('class' => array('about-link')))); ?>
-                        with
+                        <br />with
                         <?php
                         $andsymbol = "";
                         foreach ($course["instructors"] as $insValue):

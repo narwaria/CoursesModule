@@ -1,3 +1,10 @@
+<?php
+/** 
+ * Available variables:
+ * - $courseListHtml
+ * - $searchCourseFormHtml
+ */
+?>
 <div class='row row-offcanvas row-offcanvas-left'>
     <p class="pull-left visible-xs col-sm-12">
         <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Filters</button>          

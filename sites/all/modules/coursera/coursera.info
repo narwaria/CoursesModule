@@ -4,6 +4,10 @@ package = Core
 version = VERSION
 core = 7.x
 
+; Dependencies
+dependencies[] = views
+dependencies[] = panels
+
 ; Added additional js & css 
 stylesheets[all][] = css/coursera.css
 scripts[] = js/coursera.js

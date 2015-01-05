@@ -1,4 +1,16 @@
 <?php
+/** 
+ * Available variables:
+ * - $courseType
+ * - $languages
+ * - $certificates
+ * - $categories
+ * - $partnerIds
+ * 
+ */
+?>
+
+<?php
 $ondemandkey = array_search("v2.ondemand", array_column($courseType["facetEntries"], 'id'));
 $SpecializationKey = array_search("Specialization", array_column($certificates["facetEntries"], 'id'));
 $VerifiedCertKey = array_search("VerifiedCert", array_column($certificates["facetEntries"], 'id'));
