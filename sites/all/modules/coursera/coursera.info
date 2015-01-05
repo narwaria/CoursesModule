@@ -1,12 +1,11 @@
 name = Coursera
 description = Coursera API integration.
-package = Core
+package = Custom
 version = VERSION
 core = 7.x
 
 ; Dependencies
-dependencies[] = views
-dependencies[] = panels
+dependencies[] = jquery_update
 
 ; Added additional js & css 
 stylesheets[all][] = css/coursera.css
